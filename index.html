@@ -11,7 +11,7 @@
 </head>
 <body id="home">
     <!--Үндсэн цэс-->
-    <div id="navbar">
+    <nav id="navbar">
         <h1 class="logo">
             <span class="text-primary">
                 <i class="fas fa-book-open"></i> Platinum
@@ -23,6 +23,107 @@
             <li><a href="#who">Бид</a></li>
             <li><a href="#contact">Холбогдох</a></li>
         </ul>
-    </div>
+    </nav>
+    <!--Header:Showcase-->
+    <header id="showcase">
+        <div class="showcase-content">
+            <h1 class="l-heading">Бидний боломжид хязгаар үгүй</h1>
+            <p class="lead">Lorem ipsum dolor sit amet consectetur adipisicing elit. In sunt neque iste vel voluptate error.</p>
+            <a href="#what" class="btn">Дэлгэрэнгүй</a>
+        </div>
+    </header>
+    <!--Section: WHAT WE DO-->
+    <section id="what" class="bg-light py-1">
+        <div class="container">
+            <h2 class="m-heading text-center">Бид<span class="text-primary"> юу</span> хйидэг вэ?</h2>
+            <div class="items">
+                <div class="item">
+                    <i class="fas fa-university fa-2x"></i>
+                    <h3>Хөрөнгө оруулалт</h3>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cum, aspernatur.</p>
+                </div>
+                <div class="item">
+                    <i class="fas fa-book-reader fa-2x"></i>
+                    <h3>Санхүүгийн зөвлөгөө</h3>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cum, aspernatur.</p>
+                </div>
+                <div class="item">
+                    <i class="fas fa-pencil-alt fa-2x"></i>
+                    <h3>Сургалт</h3>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cum, aspernatur.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--SECTION: WHO WE ARE-->
+    <section id="who">
+        <div class="who-img"></div>
+        <div class="who-text bg-dark p-2">
+            <h2 class="m-heading"><span class="text-primary">Бид</span> хэн бэ?</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit iure reiciendis corrupti. Iusto culpa doloribus assumenda, asperiores odio pariatur velit possimus molestias temporibus sit cupiditate quod. Blanditiis reiciendis expedita dolores?
+            </p>
+            <h3>Удирдлагын баг</h3>
+            <ul class="list">
+                <li>Батсайхан Дэлгэр: Гүйцэтгэх захирал</li>
+                <li>Долгорын Гэрэлтуяа: Санхүү эрхэлсэн захирал</li>
+                <li>Болдын Ганзориг: Ерөнхий нягтлан</li>
+                <li>Сүрэнгийн Баярцэцэг: Хөрөнгө оруулалтын менежер</li>
+                <li>Жаргалын Амарбаясгалан: Сургалт хариуцсан менежер</li>
+            </ul>
+        </div>
+    </section>
+
+    <!--Our Partners-->
+    <section id="clients" class="py-1">
+        <div class="container">
+            <h2 class="m-heading text-center"><span class="text-primary">Манай </span> түншүүд</h2>
+            <div class="items py-1">
+                <div><img src="./img/20200322_38logo1.png" alt="client"></div>
+                <div><img src="./img/20200322_38logo1.png" alt="client"></div>
+                <div><img src="./img/20200322_38logo1.png" alt="client"></div>
+                <div><img src="./img/20200322_38logo1.png" alt="client"></div>
+                <div><img src="./img/20200322_38logo1.png" alt="client"></div>
+            </div>
+        </div>
+    </section>
+
+    <!--Section: Contact-->
+    <section id="contact">
+        <div class="contact-form bg-primary p-2">
+            <h2 class="m-heading">Бидэнтэй холбоо барих</h2>
+            <p>Доорх талбаруудыг бөглөн бидэнтэй холбоо барина уу</p>
+            <form>
+                <div class="form-group">
+                    <label for="name">Нэр</label>
+                    <input type="text" name="name" id="name" placeholder="Нэрээ оруулна уу">
+                </div>
+                <div class="form-group">
+                    <label for="name">И-мейл</label>
+                    <input type="email" name="email" id="email" placeholder="И-мейлээ оруулна уу">
+                </div>
+                <div class="form-group">
+                    <label for="name">Утасны дугаар</label>
+                    <input type="text" name="phone" id="phone" placeholder="Утасны дугаараа оруулна уу">
+                </div>
+                <div class="form-group">
+                    <label for="name">Мессеж</label>
+                    <textarea name="name" id="name" placeholder="Мессежээ энд бичнэ үү"></textarea>
+                </div>
+                <input type="submit" value="Илгээх" class="btn btn-dark">
+            </form>
+        </div>
+        <div class="map">
+
+        </div>
+    </section>
+
+    <script src="js/main.js"></script>
+
+    <script
+    src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDANfsSPpTs9pWIs6Un6_bY9qX3pfmolz4&callback=initMap&libraries=maps,marker&v=beta"
+    defer
+></script>
 </body>
 </html>
+
+<!--AIzaSyDANfsSPpTs9pWIs6Un6_bY9qX3pfmolz4-->
