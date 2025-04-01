@@ -109,7 +109,7 @@ p {
     justify-content: space-between;
     position: sticky;
     top: 0;
-    background: #333;
+    background: #46454a;
     color: azure;
     z-index: 1;
     padding: 1rem;
@@ -134,7 +134,7 @@ p {
 
 /*Showcase*/
 #showcase{
-    background: #333 url('../img/20200322_38showcase.jpg') no-repeat center center/cover;
+    background: #333 url('../img/Niit\ Ajilchid.jpg') no-repeat center center/cover;
     height: 100vh;
     color: azure;
 }
@@ -185,7 +185,7 @@ p {
 }
 
 #who .who-img{
-    background: url('../img/20200322_38people.jpg') no-repeat center center/cover;
+    background: url('../img/5uulaa.jpg') no-repeat center center/cover;
 }
 
 /*Sectin: Partners*/
