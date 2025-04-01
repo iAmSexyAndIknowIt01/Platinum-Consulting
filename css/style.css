@@ -134,7 +134,7 @@ p {
 
 /*Showcase*/
 #showcase{
-    background: #333 url('../img/Niit\ Ajilchid.jpg') no-repeat center center/cover;
+    background: #333 url('../img/NiitAjilchid.jpg') no-repeat center center/cover;
     height: 100vh;
     color: azure;
 }
@@ -183,6 +183,7 @@ p {
 #who div{
     flex: 1;
 }
+
 
 #who .who-img{
     background: url('../img/5uulaa.jpg') no-repeat center center/cover;
