@@ -149,11 +149,22 @@ p {
     padding: 0 2rem;
     /*Overlay*/
     /* position: absolute;  */
-    top: 60px;
+    top: 80px;
     left: 0;
     right: 0;
     bottom: 0;
     background:rgba(0, 0, 0, 0.5);
+}
+
+#showcase .showcase-content .showcase-preContent{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    padding: 0 2rem;
+    margin-top: 350px;
 }
 
 /*Sectoin: What We Do*/
