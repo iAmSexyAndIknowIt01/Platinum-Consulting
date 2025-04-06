@@ -164,7 +164,7 @@ p {
     align-items: center;
     height: 100%;
     padding: 0 2rem;
-    margin-top: 350px;
+    margin-top: 280px;
 }
 
 /*Sectoin: What We Do*/
@@ -200,6 +200,11 @@ p {
     background: url('../img/5uulaa.jpg') no-repeat center center/cover;
 }
 
+/*Section: Who we are*/
+#who .we-hiring{
+    background: url('../img/weHiring.jpg') no-repeat center center/cover;
+}
+
 /*Sectin: Partners*/
 #clients .items{
     display: flex;
@@ -216,7 +221,7 @@ p {
     display: flex;
 }
 
-#contact .map, #contact .contact-form{
+#contact .contact-us, #contact .contact-form{
     flex: 1;
 }
 
